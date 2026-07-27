@@ -1,8 +1,27 @@
 aid: indrive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/indrive.png
 name: Indrive
-description: 'Indrive is a company surfaced as a portfolio company of bond-capital, general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. Sector: mobility. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'inDrive is a global ride-hailing, delivery, and urban-services platform built around a
+  peer-to-peer, name-your-price model in which passengers propose a fare and nearby drivers accept,
+  counter, or decline it directly. Founded in 2012 by Arsen Tomsky in Yakutsk, Russia and now
+  headquartered in Mountain View, California, the company operates across roughly 48 countries and more
+  than 1,000 cities, with over 400 million app downloads. Beyond city rides it offers intercity
+  transport, courier and freight delivery, on-demand task services, and driver lending. inDrive was
+  added to the API Evangelist network as a portfolio company of Bond Capital and General Catalyst.
+  inDrive does not publish a public developer API, OpenAPI specification, SDKs, or a developer portal;
+  its GitHub organization hosts internal engineering frameworks and an engineering handbook rather than
+  external API definitions.'
 url: https://raw.githubusercontent.com/api-evangelist/indrive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Mobility
+- Ride Hailing
+- Ridesharing
+- Delivery
+- Freight
+- Transportation
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/indrive-domain-security.yml
 - type: Website
   url: https://indrive.com
+- type: GitHubOrganization
+  url: https://github.com/inDriver
+- type: Blog
+  url: https://blog.indrive.com/
+- type: Support
+  url: https://indrive.com/help
+- type: TermsOfService
+  url: https://indrive.com/legal
+- type: PrivacyPolicy
+  url: https://indrive.com/legal
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
