@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "indrive",
+    "captured_at": "2026-10-11T190553",
+    "source_url": "https://indrive.com",
+    "source_type": "Website",
+    "file": "indrive-2026-10-11T190553.png",
+    "bytes": 808742,
+    "capture": "playwright-local"
+  }
+]
